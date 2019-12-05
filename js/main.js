@@ -160,7 +160,6 @@
   
   });
   
-    
   //header
   function inits() {
     window.addEventListener('scroll', function(e){

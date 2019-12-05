@@ -376,10 +376,17 @@ img { max-width: 100%; }
   -webkit-transform: translate3d(0, 2500px, 0);
   transform: translate3d(0, 2500px, 0);
 }
+
 .menu-list a:nth-child(6) {
+  -webkit-transform: translate3d(0, 2800px, 0);
+  transform: translate3d(0, 2800px, 0);
+}
+
+.menu-list a:nth-child(7) {
   -webkit-transform: translate3d(0, 3000px, 0);
   transform: translate3d(0, 3000px, 0);
 }
+
 .menu-list a span:nth-last-child(1){
   margin-bottom: 100px;
 }
@@ -1219,6 +1226,12 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+#video a {
+  min-height: 650px;
+  display: inline-block;
+  width: 100%;
+}
 
 .video-card {
   text-align: center;
